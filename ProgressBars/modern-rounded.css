@@ -1,0 +1,20 @@
+.progress-bar {
+    -fx-background-color: #494949; /* Color to show how far the bar goes */
+    -fx-background-radius: 12px;
+    -fx-background-size: 0.5px;
+}
+
+.progress-bar .bar {
+    -fx-background-color: #b2b2b2; /* Color for progress */
+    -fx-background-insets: 0, 0 1 1 0;
+    -fx-background-radius: 12px;
+}
+
+.progress-bar .track {
+    -fx-background-color: transparent;
+}
+
+.progress-bar .text {
+    -fx-font-size: 12px;
+    -fx-fill: #2980b9; /* No idea whats that for its a long time since I wrote this */
+}
